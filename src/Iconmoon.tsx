@@ -32,6 +32,7 @@ const IconMoon: React.FC<IconMoonProps> = ({
       .find((i: IconMap) => {
         return i.name === name;
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectionData, name]);
 
   if (currentIcon === undefined) {

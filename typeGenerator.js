@@ -1,5 +1,5 @@
 import fs from 'fs';
-import iconSet from './src/selection.json' assert { type: 'json' };
+import * as iconSet from './src/selection.json';
 
 const typeIconList = () => {
   const iconNames = [];
