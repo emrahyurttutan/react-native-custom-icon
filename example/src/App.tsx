@@ -9,15 +9,9 @@ export default function App() {
     <View style={styles.container}>
       <ScrollView>
         {iconList.map((x: string, i: number) => (
-          <View style={{ flexDirection: 'row' }} key={i}>
-            <IconMoon
-              name={x as any}
-              size={84}
-              color="green"
-            />
-            <Text style={{ marginHorizontal: 10 }}>
-              {x}
-            </Text>
+          <View style={styles.row} key={i}>
+            <IconMoon name={x as any} size={84} color="green" />
+            <Text style={styles.text}>{x}</Text>
           </View>
         ))}
       </ScrollView>
@@ -28,5 +22,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-  }
+  },
+  row: { flexDirection: 'row' },
+  text: { marginHorizontal: 10 },
 });

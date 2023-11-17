@@ -1,0 +1,4 @@
+.yarn
+example
+node_modules
+typeGenerator.js

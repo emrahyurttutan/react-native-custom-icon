@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 //@ts-ignore
 import { Svg, Path } from 'react-native-svg';
-import selectionData from './selection.json';
+import * as selectionData from './selection.json';
 import type { IconMap, IconMoonProps } from './types';
 
 const IconMoon: React.FC<IconMoonProps> = ({
