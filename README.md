@@ -1,17 +1,17 @@
-# react-native-custom-icon
+# yipyip-icomoon
 
 selection.json to svg icon 
 
 ## Installation
 
 ```sh
-npm install react-native-custom-icon
+npm install yipyip-icomoon
 ```
 
 ## Usage
 
 ```js
-import { iconNames } from 'react-native-custom-icon';
+import { iconNames } from 'yipyip-icomoon';
 
 // ...
 
@@ -22,7 +22,7 @@ const iconList = iconNames();
 ## Usage
 
 ```js
-import IconMoon from 'react-native-custom-icon';
+import IconMoon from 'yipyip-icomoon';
 
 // ...
 

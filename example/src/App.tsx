@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import IconMoon, { iconNames } from 'react-native-custom-icon';
+import IconMoon, { iconNames } from 'yipyip-icomoon';
 
 export default function App() {
   const iconList = iconNames();

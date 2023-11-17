@@ -1,5 +1,5 @@
 {
-  "name": "react-native-custom-icon",
+  "name": "yipyip-icomoon",
   "version": "0.1.0",
   "description": "selection.json to svg icon",
   "main": "lib/commonjs/index",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-custom-icon-example",
+    "example": "yarn workspace yipyip-icomoon-example",
     "test": "jest ./src --verbose",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/emrahyurttutan/react-native-custom-icon",
+  "repository": "https://github.com/emrahyurttutan/yipyip-icomoon",
   "author": "Emrah Yurttutan <emrahyurttutan@gmail.com> (https://github.com/emrahyurttutan)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emrahyurttutan/react-native-custom-icon/issues"
+    "url": "https://github.com/emrahyurttutan/yipyip-icomoon/issues"
   },
-  "homepage": "https://github.com/emrahyurttutan/react-native-custom-icon#readme",
+  "homepage": "https://github.com/emrahyurttutan/yipyip-icomoon#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
